@@ -1,0 +1,11 @@
+--- MAIN FUNCTIONS ---
+pga                     main variable selection routine
+get.topfew              what are the top-ranked variables?
+get.pga.ans             which variables received significantly more votes than others?
+view.bubble             creates a bubble plot of the result
+view.order              creates an order plot of the result
+view.movie              creates a dynamic bubble plot of the result
+sga                     run a single-path genetic algorithm; called by pga
+
+--- OTHER FUNCTIONS ---
+summarize.PGAsim        used to summarize repeated simulation results
